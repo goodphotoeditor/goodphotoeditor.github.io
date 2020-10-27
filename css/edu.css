@@ -1,0 +1,106 @@
+.align-justify {
+  margin-top: 30px;
+}
+
+#pixlr-edu-section {
+  padding: 0;
+  background: linear-gradient(315deg, #a0c8ff 0, #89f7fe 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 690px;
+}
+
+#pixlr-edu-section h3 {
+  margin: 40px auto 0;
+}
+
+#editor-selector-buttons {
+  display: flex;
+  line-height: 36px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+#editor-selector-buttons .button {
+  flex-grow: 2;
+  max-width: 250px;
+}
+
+#editor-selector-buttons .button:hover {
+  background-color: #517190;
+  box-shadow: 0 5px 15px rgba(81, 113, 144, 0.4);
+}
+
+#editor-selector-buttons span {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 20px;
+  white-space: nowrap;
+}
+
+#educator-wrapper .button, #student-wrapper .button {
+  white-space: normal;
+  height: auto;
+    line-height: normal;
+    padding: 10px 20px;
+    display: block;
+}
+
+.laptop-step-img {
+  cursor: default;
+}
+
+.box-x, .box-e {
+  width: 45%;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.features li:before {
+  position: absolute;
+  left: 0;
+}
+@media only screen and (max-width: 900px) {
+  .box-x, .box-e {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #pixlr-edu-section img {
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+  #editor-selector-buttons {
+    align-items: center;
+    flex-direction: column;
+  }
+  #other-selector-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #pixlr-edu-section {
+    background-size: 100% 840px;
+  }
+  #editor-selector-wrap {
+    padding-top: 0;
+  }
+  .photo-editor-hero-image {
+    margin: 0 60px;
+  }
+  #education-pack {
+    padding: 0 20px;
+  }
+  .step-how {
+    min-height: 220px;
+  }
+}
